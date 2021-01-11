@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Cutive+Mono&display=swap');
+
+@media only screen and (min-width: 800px) {
+    #navbar {
+        position: fixed;
+        left: 0;
+    }
+    body {
+        width: 550px;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    #navbar {
+        position: fixed;
+        top: 0;
+    }
+}
+
+#navbar {
+    position: fixed;
+    width: 229px;
+}
+
+body {
+    background-color: black;
+    background-image: url("fondo.png");
+    background-position: right top;
+    background-size: 82%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    font-family: 'Cutive Mono', monospace;
+    color:white;
+}
+
+h1 {
+    color:white;
+    margin-top: -10px;
+    margin-left: -20px;
+    position: relative;
+    left: 319px;
+    width: 174%;
+    background-color: rgb(0, 0, 0, 0.9);
+    opacity: 55%;
+}
+
+.nav-link {
+    text-decoration: overline;
+    color: white;
+    background-color: rgb(0, 0, 0, 1.0);
+    font-size: 29px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display: block;
+    position: relative;
+    bottom: 30px;
+}
+
+#main-doc {
+    background-color: rgb(0, 0, 0, 0.8);
+    width: 150%;
+    position: relative;
+    left: 298px;
+    margin-left: 0%;
+    text-align: justify;
+}
+
+code {
+    background-color: rgb(0, 0, 0, 0.8);
+}
+
+h2 {
+    background-color: rgb(0, 0, 0, 0.8);
+}
+
+header {
+    background-image: url("riki.jpeg");
+    background-position: top;
+}
